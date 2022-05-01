@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+margin-top: 35px;
+margin-left: 50px;
+width: 15vw;
+z-index: 1201;
+position: absolute;
+}
+
+.image img{
+   width: 98.7vw;
+   height: 550px;
+   border-radius:0 0 20px 20px;
+   box-shadow: 10px 10px 15px 0.2px black;
+}
+.image{
+    z-index: 100;
+    position: absolute;
+}
+body{
+background: white;
+}
+
+.tittle{
+  background-color: rgb(4, 90, 90);
+  width: 98.7vw;
+  height: 120px;
+  border: 10px white;
+  color: antiquewhite;
+  
+}
+.tittle h1,h3,h4{
+    text-align: center;
+}
+.tittle h1{
+    padding-top: 20px;
+}
+.navBar{
+    background-color:#31312d;
+    display: flex;
+    align-items: center;
+    padding: 10px 23%;
+    position: sticky;
+    top: 0;
+    z-index: 1200;
+}
+li, a{
+    font-weight: 500;
+    font-size: 16px;
+    color: bisque;
+    text-decoration: none;
+}
+
+.nav_links .navstyle{
+list-style: none;
+margin-left: 50px;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navstyle li{
+    display: block;
+    padding: 10px 85px;   
+}
+
+#navid{
+    color: rgb(250, 126, 24);
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navstyle li img{
+    width: 20px;
+}
+
+.nav_links li img{
+    width: 20px;
+}
+
+.contact img{
+    display: block;
+    width: 20px;
+}
+
+.nav_links li a:hover{
+    color: aqua;
+}
+.navstyle li a:hover{
+    color: aqua;
+}
+
+.contact{
+    margin-left: 20px;
+    padding: 9px 30px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.contact:hover{
+    background-color: aqua;
+    border: 1px rgb(12, 207, 139);
+    
+}
+h2{
+    font-size: 40px;
+    margin-top: 580px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(5, 168, 168);
+}
+.para{
+   padding: 20px;
+    width: 1000px;
+    text-align: justify;
+    z-index: 300;
+    display: inline-flex;
+    border: 20px solid rgba(143, 141, 141, 0.4);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+b{
+    font-size: 20px;
+    color: rgb(5, 151, 151);
+}
+.heading{
+position: absolute;
+margin-left: 5%;
+margin-top: 30px;
+z-index: 200;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(4, 90, 90);
+}
+
+.form1{
+    width: 30vw;
+    padding: 10px;
+    background-color: rgb(61, 60, 60, 0.4);
+    margin-top: 70px;
+    margin-left: 60px;    
+    border-radius: 20px;
+    position: absolute;
+    z-index: 999;
+    color: rgb(12, 12, 12);
+}
+
+
+.form1 h4{
+    text-align: right;
+    color: black;
+    padding-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form1 h3{
+    text-align: left;
+    padding-top: 15px;
+}
+.form1 h6{
+    text-align: left;
+    color: darkblue;
+}
+
+.rgester{
+    margin-top: 20px;
+    margin-left: 35%;
+    padding: 9px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-color: white;
+    color: green;
+    border: 1px solid green; 
+     
+}
+
+.rgester:hover{
+    background-color: green;
+    color: white;
+    border: 1px solid wheat;
+}
+
+#form{
+    color: rgb(250, 251, 252);
+    
+}
+#marq{
+    display: flex;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.marq video{
+    width: 240px;
+    height: 135px;
+}
+
+.lowerBody{
+   display: flex;
+ justify-content: center;
+ margin-bottom: 20px; 
+}
+
+.navBar2{
+    width: 98.7vw;
+    background-color: rgb(4, 90, 90);
+    display: flex;
+    border-top: 6px solid rgb(1, 34, 34);
+    text-align: center;
+}
+
+label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 50px;
+    border: 1px solid wheat;
+    border-radius: 20px;
+}
+
+label:before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: wheat;
+    transition: 0.4s;
+} 
+
+label.active:before{
+    left: 24px;
+    background: white;
+}
+body.night{
+    background: #000000;
+    color: aliceblue;
+}
+
+input{
+    width: 200px;
+}
